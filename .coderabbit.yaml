@@ -1,0 +1,8 @@
+reviews:
+  high_level_summary_in_walkthrough: true
+
+  high_level_summary_instructions: |
+    Keep the summary concise.
+    Summarize only the most important changes.
+    Use short bullet points.
+    Do not include unnecessary code or large tables.
