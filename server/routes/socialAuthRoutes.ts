@@ -1,5 +1,5 @@
 import express from "express";
-import { generateAuthUrl, syncAccounts } from "../controllers/socialAuthController.js";
+import { generateAuthUrl, syncAccounts } from "../controllers/socialAuthControllers.js";
 import { protect } from "../middlewares/authMiddleware.js";
 
 const socialAuthRouter = express.Router();

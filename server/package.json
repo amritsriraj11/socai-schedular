@@ -13,19 +13,24 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@google/genai": "^2.28.0",
     "@zernio/node": "^0.2.723",
+    "axios": "^1.20.0",
     "bcrypt": "^6.0.0",
+    "cloudinary": "^2.11.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.9.5"
+    "mongoose": "^9.9.5",
+    "multer": "^2.5.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
+    "@types/multer": "^2.3.0",
     "@types/node": "^26.5.0",
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
